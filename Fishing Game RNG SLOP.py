@@ -53,7 +53,7 @@ def main():
             worms -= 1
             print(f"🪱 Cast your line... \n(Worms left: {worms})\n(Money left: {money})")
 
-            # Local variables for tiers and weights so they never get corrupted globally
+        
             tier_list = list(FISH_CONFIG.keys())
             weight_list = [FISH_CONFIG[t]["weight"] for t in tier_list]
 
